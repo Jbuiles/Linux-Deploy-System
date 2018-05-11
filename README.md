@@ -8,4 +8,4 @@ This is a Linux Package deployment system I wrote in college and its intended us
 Whenever there is a new version available for your files or application, this system will automatically create a package of all your files and then deploy them to a desired location on your Quality Assurance server for testing before being sent to the production server for live use.
 
 # Disclaimer
-This project is still under construction and code or features may change or vary at any point. I am not responsible for any losses or damages you incur if you decide to use this system.
+This project is still under construction and code or features may change or vary at any point.

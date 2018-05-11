@@ -15,7 +15,7 @@ class Sender {
 		$Server = '192.168.2.2';//Set to Orchestration ip
 
 		$this->connection = new AMQPStreamConnection(
-			$Server, 5672, 'admin', 'pass');
+			$Server, 5672, 'admin', 'pass')//Set to RMQ Login Credentials
 		$this->channel = $this->connection->channel();
 		list($this->callback_queue, ,) = $this->channel->queue_declare(
 			"", false, false, true, false);

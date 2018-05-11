@@ -5,7 +5,7 @@ This is a Linux Package deployment system intended to be used to deliver system 
 
 
 # How does it work?
-Whenever there is a new version available for your files or application, this system will automatically deploy the packages and files to a desired location on the the Quality Assurance server for testing before being sent to the production server for live use.
+Whenever there is a new version available for your files or application, this system will automatically create a package of all your files and then deploy them to a desired location on your Quality Assurance server for testing before being sent to the production server for live use.
 
 # Disclaimer
 This project is still under construction and code or features may change or vary at any point. I am not responsible for any losses or damages you incur if you decide to use this system.

@@ -1,5 +1,6 @@
 <?php
-$Version= "1_1";#Your version number here
-$Server= "DMZ";#Your server name here
-$Path = "/home/orchestration/Orchestration/$Server/$Server$Version.tar.gz";#Your path where you will save the files on the Orchestration Server
+$Folder="";#Your absolute path where you will save your application folders on Orchestration
+$Version= "";#Your version number here
+$Server= "";#Your server name here
+$Path = "/$Folder/$Server/$Server$Version.tar.gz";
 ?>
